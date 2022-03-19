@@ -83,7 +83,7 @@ fn get_word() -> &'static str {
 
 fn main() {
     println!("Guess the 5 letter word in 5 guesses!");
-    println!("Hints:\n\t<n>: Letter is not in word.\n\t<c> Letter is in word.\n\t<i> Letter is at correct location");
+    println!("Hints:\n\t<n> Letter is not in word.\n\t<c> Letter is in word.\n\t<i> Letter is at correct location");
     println!("Now enter your guess.");
     let word = get_word();
     for _n in 0..5 {
